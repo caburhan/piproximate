@@ -15,8 +15,7 @@ def piproximate_1(n): #this uses the newton euler convergence formula
 	
 
 
-def gcd (a, b):
-	#gcd = 1
+def gcd (a, b): #defines a function to return the greatest common denominator of two integers 
 	if a == b:
 		gcd = a
 	elif a > b:
